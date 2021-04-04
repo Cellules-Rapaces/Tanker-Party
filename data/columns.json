@@ -1,0 +1,7 @@
+[
+  {"name":"TimeStamp","title":"TimeStamp"},
+  {"name":"PlayerName","title":"Nom du joueur"},
+  {"name":"AircraftType","title":"Avion"},
+  {"name":"TotalTimeH","title":"Temps"},
+  {"name":"IntermediateTimes","title":"Temps intermédiaire"}
+]

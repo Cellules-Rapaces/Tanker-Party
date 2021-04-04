@@ -1,0 +1,239 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="CoubyStark">
+  <title>Tanker Party Challenge - Podium</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+
+  <!-- Flag icons -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.1.0/css/flag-icon.min.css" rel="stylesheet">
+
+  <!--load all styles pour FontAwesome v5.15.2 -->
+  <link href="/assets/css/all.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="/assets/css/main.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+<!-- Header menu de navigation + vidéo -->
+<header style ="height: 50vh;min-height: 25rem;">
+  <!-- Menu de navigation -->
+  <div class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="/">
+        <img src="/images/brand-tanker-party.svg" alt="" height="40">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarDropdown" aria-controls="navbarDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#"><i class="fas fa-trophy"></i> Podium</a>
+          </li>
+          <li class="nav-item">
+            <a class="btn btn-primary" href="/rejoindrelacourse"><i class="fas fa-flag-checkered"></i> Rejoindre la course &raquo;</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/regles"><i class="fas fa-scroll"></i> Règles</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/chronos"><i class="fas fa-stopwatch"></i> Chronos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/training"><i class="fas fa-running"></i> Training</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <i class="fas fa-history"></i> Historique
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+              <li><a class="dropdown-item" href="/2020">2020</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bandeau vidéo -->
+  <div class="overlay"></div>
+  <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+    <source src="/videos/tanker_party_banner.mp4" type="video/mp4">
+  </video>
+  <div class="container h-100">
+    <div class="d-flex h-100 text-end align-items-end">
+      <div class="w-100 text-white">
+        <h1 class="display-3">3, 2, 1... Max Gate !</h1>
+        <p><a class="btn btn-primary" href="/rejoindrelacourse"><i class="fas fa-flag-checkered"></i> Rejoindre la course &raquo;</a></p>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main>
+  <div class="album pb-5 bg-light">
+    <div class="container">
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+        <!-- Choix de langue en breadcrumb
+          <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" id="dropdown09" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="flag-icon flag-icon-fr"> </span> Français</a>
+              <div class="dropdown-menu" aria-labelledby="dropdown09">
+                  <a class="dropdown-item" href="#"><span class="flag-icon flag-icon-us"> </span>  English</a>
+                  <a class="dropdown-item" href="#"><span class="flag-icon flag-icon-gb"> </span>  English</a>
+                  <a class="dropdown-item" href="#"><span class="flag-icon flag-icon-es"> </span>  Español</a>
+                  <a class="dropdown-item" href="#"><span class="flag-icon flag-icon-de"> </span>  Deutsche</a>
+                  <a class="dropdown-item" href="#"><span class="flag-icon flag-icon-it"> </span>  Italiano</a>
+                  <a class="dropdown-item" href="#"><span class="flag-icon flag-icon-ru"> </span>  Pусский</a>
+              </div>
+          </li>
+        </ol>
+        -->
+      </nav>
+
+
+      <!-- Podium -->
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 pt-4 g-3">
+        <!-- Podium M2000C -->
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="/images/Trophy_M2000C.png" class="bd-placeholder-img card-img-top" height="100%">
+            <div class="card-body">
+              <p class="card-text">Le meilleur temps sur Mirage 2000C par : </p>
+              <img class="FastestPlayerM2000_pic img-thumbnail rounded mx-auto d-block" src="/images/pilot_.png" height="100px" width="100px">
+              <h3 class="FastestPlayerM2000 text-center" style="margin-top: 8px;"><span class="flag-icon flag-icon-fr"> </span> Walk'n</h3>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="icon-M2000-h" style="font-size: 2.73em; margin-bottom: 8px;"></div>
+                <h4><span class="FastestTimeM2000 badge bg-warning text-dark"></span></h4>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Podium F-18 -->
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="/images/Trophy_F18.png" class="bd-placeholder-img card-img-top" height="100%">
+            <div class="card-body">
+              <p class="card-text">Le meilleur temps sur F/A-18C par : </p>
+              <img class="FastestPlayerF18_pic img-thumbnail rounded mx-auto d-block" src="/images/pilot_.png" height="100px" width="100px">
+              <h3 class="FastestPlayerF18 text-center" style="margin-top: 8px;"><span class="flag-icon flag-icon-fr"> </span> Fahrenheit</h3>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="icon-f-18-h" style="font-size: 2.73em;"></div>
+                <h4><span class="FastestTimeF18 badge bg-warning text-dark">-- min --.---</span></h4>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Podium F-14 -->
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="/images/Trophy_F14B.png" class="bd-placeholder-img card-img-top" height="100%">
+            <div class="card-body">
+              <p class="card-text">Le meilleur temps sur F-14B par : </p>
+              <img class="FastestPlayerF14_pic img-thumbnail rounded mx-auto d-block" src="/images/pilot_.png" height="100px" width="100px">
+              <h3 class="FastestPlayerF14 text-center" style="margin-top: 8px;"><span class="flag-icon flag-icon-us"> </span> Stardust</h3>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="icon-f-14-h" style="font-size: 2.73em;"></div>
+                <h4><span class="FastestTimeF14 badge bg-warning text-dark">-- min --.---</span></h4>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Podium F-16 -->
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="/images/Trophy_F16.png" class="bd-placeholder-img card-img-top" height="100%">
+            <div class="card-body">
+              <p class="card-text">Le meilleur temps sur F-16C par : </p>
+              <img class="FastestPlayerF16_pic img-thumbnail rounded mx-auto d-block" src="/images/pilot_.png" height="100px" width="100px">
+              <h3 class="FastestPlayerF16 text-center" style="margin-top: 8px;"><span class="flag-icon flag-icon-fr"> </span> Pitbull</h3>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="icon-f-16-h" style="font-size: 2.73em;"></div>
+                <h4><span class="FastestTimeF16 badge bg-warning text-dark">-- min --.---</span></h4>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Podium JF-17 -->
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="/images/Trophy_JF17.png" class="bd-placeholder-img card-img-top" height="100%">
+            <div class="card-body">
+              <p class="card-text">Le meilleur temps sur JF-17 par : </p>
+              <img class="FastestPlayerJF17_pic img-thumbnail rounded mx-auto d-block" src="/images/pilot_.png" height="100px" width="100px">
+              <h3 class="FastestPlayerJF17 text-center" style="margin-top: 8px;"><span class="flag-icon flag-icon-fr"> </span> Bunker</h3>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="icon-jf-17-h" style="font-size: 2.73em;"></div>
+                <h4><span class="FastestTimeJF17 badge bg-warning text-dark">-- min --.---</span></h4>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+</main>
+
+<footer class="py-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-3 col-md">
+        <img class="mb-2 mx-auto d-block" src="/images/patch_tiger.png" alt="" width="100" height="100">
+        <small class="d-block mb-3 text-muted text-center">&copy; 2004–2021 Cellules Rapaces </br>
+        par CoubyStark</small>
+      </div>
+      <div class="col-3 col-md">
+        <h5>Les défis solos Rapaces</h5>
+        <ul class="list-unstyled text-small">
+          <li><a class="link-secondary" href="https://tankerparty.cellules-rapaces.fr">Tanker Party</a></li>
+        </ul>
+      </div>
+      <div class="col-3 col-md">
+        <h5>A propos</h5>
+        <ul class="list-unstyled text-small">
+          <li><a class="link-secondary" href="https://www.cellules-rapaces.fr">Cellules Rapaces</a></li>
+          <li><a class="link-secondary" href="#">Questions - réponses</a></li>
+          <li><a class="link-secondary" href="/contact">Contact</a></li>
+          <li><a class="link-secondary" href="/mentionslegales">Mentions légales</a></li>
+        </ul>
+      </div>
+      <div class="col-3 col-md">
+        <h5>Medias</h5>
+        <a href="https://discord.gg/52B4WasJfZ"><img class="rounded text-start" src="/images/Tigre_Discord.svg" alt="" width="60" height="60"></a>
+        <a href="https://www.twitch.tv/coubystark"><img class="rounded text-start" src="/images/Tigre_Twitch.svg" alt="" width="60" height="60"></a>
+        <a href="https://github.com/Cellules-Rapaces"><img class="rounded text-start" src="/images/Tigre_Github.svg" alt="" width="55" height="55"></a>
+        <p class="text-end mb-1">
+          <a href="#">Back to top</a>
+        </p>
+      </div>
+    </div>
+  </div>
+
+  </div>
+</footer>
+
+
+<!-- jQuery 3.5.1 -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+<!-- Bootstrap 5.0.0-beta2 -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+<!-- Chargement des données du podium -->
+<script src="/assets/js/podium.js"></script>
+
+</body>
+</html>

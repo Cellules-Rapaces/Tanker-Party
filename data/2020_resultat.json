@@ -1,0 +1,194 @@
+[
+  {
+    "TimeStamp": "20200714_14:20:00",
+    "PlayerName": "Maddog",
+    "AircraftType": "M-2000C",
+    "TotalTime": 2530.87,
+    "TotalTimeH": "42 min 10.870",
+    "IntermediateTimes": ""
+  },
+  {
+    "TimeStamp": "20200725_17:29:00",
+    "PlayerName": "CoubyStark",
+    "AircraftType": "M-2000C",
+    "TotalTime": 2052.45,
+    "TotalTimeH": "34 min 12.450",
+    "IntermediateTimes": 1307.65
+  },
+  {
+    "TimeStamp": "20200726_00:13:00",
+    "PlayerName": "Ti'Rco",
+    "AircraftType": "M-2000C",
+    "TotalTime": 1855.42,
+    "TotalTimeH": "30 min 55.420",
+    "IntermediateTimes": ""
+  },
+  {
+    "TimeStamp": "20200726_09:07:00",
+    "PlayerName": "Maddog",
+    "AircraftType": "M-2000C",
+    "TotalTime": 1945.11,
+    "TotalTimeH": "32 min 25.110",
+    "IntermediateTimes": ""
+  },
+  {
+    "TimeStamp": "20200726_13:25:00",
+    "PlayerName": "Maddog",
+    "AircraftType": "M-2000C",
+    "TotalTime": 1734.4,
+    "TotalTimeH": "28 min 54.400",
+    "IntermediateTimes": ""
+  },
+  {
+    "TimeStamp": "20200802_08:09:00",
+    "PlayerName": "CoubyStark",
+    "AircraftType": "M-2000C",
+    "TotalTime": 1660.62,
+    "TotalTimeH": "27 min 40.620",
+    "IntermediateTimes": 1006.47
+  },
+  {
+    "TimeStamp": "20200802_18:57:00",
+    "PlayerName": "Maddog",
+    "AircraftType": "M-2000C",
+    "TotalTime": 1607.95,
+    "TotalTimeH": "26 min 47.950",
+    "IntermediateTimes": ""
+  },
+  {
+    "TimeStamp": "20200803_18:57:00",
+    "PlayerName": "Maddog",
+    "AircraftType": "F-14B",
+    "TotalTime": 2165.61,
+    "TotalTimeH": "36 min 5.610",
+    "IntermediateTimes": ""
+  },
+  {
+    "TimeStamp": "20200804_16:00:00",
+    "PlayerName": "CoubyStark",
+    "AircraftType": "M-2000C",
+    "TotalTime": 1601.16,
+    "TotalTimeH": "26 min 41.160",
+    "IntermediateTimes": 974.75
+  },
+  {
+    "TimeStamp": "20200806_19:25:00",
+    "PlayerName": "Maddog",
+    "AircraftType": "M-2000C",
+    "TotalTime": 1578.79,
+    "TotalTimeH": "26 min 18.790",
+    "IntermediateTimes": ""
+  },
+  {
+    "TimeStamp": "20200809_08:29:00",
+    "PlayerName": "CoubyStark",
+    "AircraftType": "M-2000C",
+    "TotalTime": 1547.17,
+    "TotalTimeH": "25 min 47.170",
+    "IntermediateTimes": 944.53
+  },
+  {
+    "TimeStamp": "20200809_12:33:00",
+    "PlayerName": "Maddog",
+    "AircraftType": "M-2000C",
+    "TotalTime": 1540.17,
+    "TotalTimeH": "25 min 40.170",
+    "IntermediateTimes": ""
+  },
+  {
+    "TimeStamp": "20200810_17:50:00",
+    "PlayerName": "CoubyStark",
+    "AircraftType": "M-2000C",
+    "TotalTime": 1508.6,
+    "TotalTimeH": "25 min 8.600",
+    "IntermediateTimes": 925.94
+  },
+  {
+    "TimeStamp": "20200811_21:50:00",
+    "PlayerName": "Asta",
+    "AircraftType": "M-2000C",
+    "TotalTime": 1535.18,
+    "TotalTimeH": "25 min 35.180",
+    "IntermediateTimes": ""
+  },
+  {
+    "TimeStamp": "20200813_16:45:00",
+    "PlayerName": "Electron",
+    "AircraftType": "F-14B",
+    "TotalTime": 2770.12,
+    "TotalTimeH": "46 min 10.120",
+    "IntermediateTimes": ""
+  },
+  {
+    "TimeStamp": "20200813_21:31:00",
+    "PlayerName": "Asta",
+    "AircraftType": "M-2000C",
+    "TotalTime": 1505.06,
+    "TotalTimeH": "25 min 5.060",
+    "IntermediateTimes": 917.11
+  },
+  {
+    "TimeStamp": "20200814_21:34:00",
+    "PlayerName": "Asta",
+    "AircraftType": "M-2000C",
+    "TotalTime": 1467.47,
+    "TotalTimeH": "24 min 27.470",
+    "IntermediateTimes": 903.99
+  },
+  {
+    "TimeStamp": "20200815_10:33:00",
+    "PlayerName": "CoubyStark",
+    "AircraftType": "M-2000C",
+    "TotalTime": 1460.63,
+    "TotalTimeH": "24 min 20.630",
+    "IntermediateTimes": 887.73
+  },
+  {
+    "TimeStamp": "20200816_12:58:00",
+    "PlayerName": "Maddog",
+    "AircraftType": "M-2000C",
+    "TotalTime": 1467.89,
+    "TotalTimeH": "24 min 27.890",
+    "IntermediateTimes": ""
+  },
+  {
+    "TimeStamp": "20200816_17:36:00",
+    "PlayerName": "Electron",
+    "AircraftType": "F-14B",
+    "TotalTime": 2323.69,
+    "TotalTimeH": "38 min 43.690",
+    "IntermediateTimes": ""
+  },
+  {
+    "TimeStamp": "20200816_18:21:00",
+    "PlayerName": "Maddog",
+    "AircraftType": "F-14B",
+    "TotalTime": 2162.45,
+    "TotalTimeH": "36 min 2.450",
+    "IntermediateTimes": ""
+  },
+  {
+    "TimeStamp": "20200817_16:57:00",
+    "PlayerName": "Maddog",
+    "AircraftType": "F-14B",
+    "TotalTime": 1894.49,
+    "TotalTimeH": "31 min 34.490",
+    "IntermediateTimes": ""
+  },
+  {
+    "TimeStamp": "20200824_18:07:00",
+    "PlayerName": "Maddog",
+    "AircraftType": "M-2000C",
+    "TotalTime": 1446.56,
+    "TotalTimeH": "24 min 6.560",
+    "IntermediateTimes": ""
+  },
+  {
+    "TimeStamp": "20200829_07:26:00",
+    "PlayerName": "CoubyStark",
+    "AircraftType": "M-2000C",
+    "TotalTime": 1440.71,
+    "TotalTimeH": "24 min 0.710",
+    "IntermediateTimes": ""
+  }
+]
