@@ -1,5 +1,15 @@
 [
 	{
+		"Date et heure": "2021-05-23T23:41:31.000Z",
+		"Nom du joueur": "JTFF | Charly",
+		"Avion": "M-2000C",
+		"Temps": "23 min 13.400",
+		"Temps intermédiaire": "14 min 37.250",
+		"Temps (s)": "1393.4",
+		"Temps intermédiaire (s)": "877.25",
+		"Ravitaillement": "Oui"
+	},
+	{
 		"Date et heure": "2021-05-21T10:58:17.000Z",
 		"Nom du joueur": "VK-01 Az",
 		"Avion": "M-2000C",
@@ -7,16 +17,6 @@
 		"Temps intermédiaire": "14 min 40.520",
 		"Temps (s)": "1404.49",
 		"Temps intermédiaire (s)": "880.52",
-		"Ravitaillement": "Oui"
-	},
-	{
-		"Date et heure": "2021-05-19T17:54:20.000Z",
-		"Nom du joueur": "JTFF | Charly",
-		"Avion": "M-2000C",
-		"Temps": "23 min 26.470",
-		"Temps intermédiaire": "14 min 40.310",
-		"Temps (s)": "1406.47",
-		"Temps intermédiaire (s)": "880.31",
 		"Ravitaillement": "Oui"
 	},
 	{
