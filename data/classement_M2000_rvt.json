@@ -1,0 +1,92 @@
+[
+	{
+		"Date et heure": "2021-05-21T10:58:17.000Z",
+		"Nom du joueur": "VK-01 Az",
+		"Avion": "M-2000C",
+		"Temps": "23 min 24.490",
+		"Temps intermédiaire": "14 min 40.520",
+		"Temps (s)": "1404.49",
+		"Temps intermédiaire (s)": "880.52",
+		"Ravitaillement": "Oui"
+	},
+	{
+		"Date et heure": "2021-05-19T17:54:20.000Z",
+		"Nom du joueur": "JTFF | Charly",
+		"Avion": "M-2000C",
+		"Temps": "23 min 26.470",
+		"Temps intermédiaire": "14 min 40.310",
+		"Temps (s)": "1406.47",
+		"Temps intermédiaire (s)": "880.31",
+		"Ravitaillement": "Oui"
+	},
+	{
+		"Date et heure": "2021-05-22T14:23:52.000Z",
+		"Nom du joueur": "Pougatchev",
+		"Avion": "M-2000C",
+		"Temps": "23 min 44.210",
+		"Temps intermédiaire": "14 min 47.590",
+		"Temps (s)": "1424.21",
+		"Temps intermédiaire (s)": "887.59",
+		"Ravitaillement": "Oui"
+	},
+	{
+		"Date et heure": "2021-05-13T22:17:25.000Z",
+		"Nom du joueur": "Asta",
+		"Avion": "M-2000C",
+		"Temps": "24 min 17.820",
+		"Temps intermédiaire": "14 min 54.260",
+		"Temps (s)": "1457.82",
+		"Temps intermédiaire (s)": "894.26",
+		"Ravitaillement": "Oui"
+	},
+	{
+		"Date et heure": "2021-05-18T21:59:25.000Z",
+		"Nom du joueur": "Vautour 1-2 | wallace",
+		"Avion": "M-2000C",
+		"Temps": "24 min 45.680",
+		"Temps intermédiaire": "14 min 57.600",
+		"Temps (s)": "1485.68",
+		"Temps intermédiaire (s)": "897.6",
+		"Ravitaillement": "Oui"
+	},
+	{
+		"Date et heure": "2021-05-17T12:48:25.000Z",
+		"Nom du joueur": "CoubyStark",
+		"Avion": "M-2000C",
+		"Temps": "26 min 07.710",
+		"Temps intermédiaire": "16 min 28.150",
+		"Temps (s)": "1567.71",
+		"Temps intermédiaire (s)": "988.15",
+		"Ravitaillement": "Oui"
+	},
+	{
+		"Date et heure": "2021-05-08T12:31:10.000Z",
+		"Nom du joueur": "COLMAR 2-1 - Guips",
+		"Avion": "M-2000C",
+		"Temps": "30 min 41.880",
+		"Temps intermédiaire": "15 min 43.900",
+		"Temps (s)": "1841.88",
+		"Temps intermédiaire (s)": "943.9",
+		"Ravitaillement": "Oui"
+	},
+	{
+		"Date et heure": "2021-05-18T22:07:53.000Z",
+		"Nom du joueur": "Vautour 1-1 | VEAW | PIMS",
+		"Avion": "M-2000C",
+		"Temps": "32 min 45.850",
+		"Temps intermédiaire": "22 min 33.460",
+		"Temps (s)": "1965.85",
+		"Temps intermédiaire (s)": "1353.46",
+		"Ravitaillement": "Oui"
+	},
+	{
+		"Date et heure": "2021-04-24T22:48:47.000Z",
+		"Nom du joueur": "Sushimi",
+		"Avion": "M-2000C",
+		"Temps": "44 min 38.140",
+		"Temps intermédiaire": "23 min 28.970",
+		"Temps (s)": "2678.14",
+		"Temps intermédiaire (s)": "1408.97",
+		"Ravitaillement": "Oui"
+	}
+]
