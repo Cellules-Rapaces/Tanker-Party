@@ -101,6 +101,8 @@
       </nav>
 
 
+      <h1>Les meilleurs temps avec ravitaillement en vol</h1>
+
       <!-- Podium -->
       <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 pt-4 g-3">
         <!-- Podium M2000C -->
@@ -116,6 +118,8 @@
                 <h4><span class="FastestTimeM2000 badge bg-warning text-dark"></span></h4>
               </div>
             </div>
+            <table id="table_M2000_rvt" class="table table-secondary table-striped table-hover">
+            </table>
           </div>
         </div>
 
@@ -132,6 +136,8 @@
                 <h4><span class="FastestTimeF18 badge bg-warning text-dark">-- min --.---</span></h4>
               </div>
             </div>
+            <table id="table_F18_rvt" class="table table-secondary table-striped table-hover">
+            </table>
           </div>
         </div>
 
@@ -148,6 +154,8 @@
                 <h4><span class="FastestTimeF14 badge bg-warning text-dark">-- min --.---</span></h4>
               </div>
             </div>
+            <table id="table_F14_rvt" class="table table-secondary table-striped table-hover">
+            </table>
           </div>
         </div>
 
@@ -164,6 +172,8 @@
                 <h4><span class="FastestTimeF16 badge bg-warning text-dark">-- min --.---</span></h4>
               </div>
             </div>
+            <table id="table_F16_rvt" class="table table-secondary table-striped table-hover">
+            </table>
           </div>
         </div>
 
@@ -180,11 +190,72 @@
                 <h4><span class="FastestTimeJF17 badge bg-warning text-dark">-- min --.---</span></h4>
               </div>
             </div>
+            <table id="table_JF17_rvt" class="table table-secondary table-striped table-hover">
+            </table>
           </div>
         </div>
 
       </div>
+
     </div>
+
+
+    <div class="container pt-5">
+
+      <h1>Les meilleurs temps sans ravitaillement en vol</h1>
+
+      <!-- Podium -->
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 pt-4 g-3">
+        <!-- Podium M2000C -->
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="/images/Trophy_M2000C.png" class="bd-placeholder-img card-img-top" height="100%">
+            <table id="table_M2000_norvt" class="table table-secondary table-striped table-hover">
+            </table>
+          </div>
+        </div>
+
+        <!-- Podium F-18 -->
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="/images/Trophy_F18.png" class="bd-placeholder-img card-img-top" height="100%">
+            <table id="table_F18_norvt" class="table table-secondary table-striped table-hover">
+            </table>
+          </div>
+        </div>
+
+        <!-- Podium F-14 -->
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="/images/Trophy_F14B.png" class="bd-placeholder-img card-img-top" height="100%">
+            <table id="table_F14_norvt" class="table table-secondary table-striped table-hover">
+            </table>
+          </div>
+        </div>
+
+        <!-- Podium F-16 -->
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="/images/Trophy_F16.png" class="bd-placeholder-img card-img-top" height="100%">
+            <table id="table_F16_norvt" class="table table-secondary table-striped table-hover">
+            </table>
+          </div>
+        </div>
+
+        <!-- Podium JF-17 -->
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="/images/Trophy_JF17.png" class="bd-placeholder-img card-img-top" height="100%">
+            <table id="table_JF17_norvt" class="table table-secondary table-striped table-hover">
+            </table>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+
   </div>
 
 </main>
@@ -234,6 +305,8 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
 <!-- Chargement des données du podium -->
 <script src="/assets/js/podium.js"></script>
+<!-- Chargement des données des classements -->
+<script src="/assets/js/classements.js"></script>
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-8BT891MH1M"></script>
 <script>
