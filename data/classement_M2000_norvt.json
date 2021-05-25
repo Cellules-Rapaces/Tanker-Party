@@ -1,15 +1,5 @@
 [
 	{
-		"Date et heure": "2021-05-25T21:43:14.000Z",
-		"Nom du joueur": "VK-01 Az",
-		"Avion": "M-2000C",
-		"Temps": "23 min 24.540",
-		"Temps intermédiaire": "14 min 34.290",
-		"Temps (s)": "1404.54",
-		"Temps intermédiaire (s)": "874.29",
-		"Ravitaillement": "Non"
-	},
-	{
 		"Date et heure": "2021-05-08T18:56:27.000Z",
 		"Nom du joueur": "JTFF | Charly",
 		"Avion": "M-2000C",
@@ -20,13 +10,13 @@
 		"Ravitaillement": "Non"
 	},
 	{
-		"Date et heure": "2021-05-25T17:34:16.000Z",
+		"Date et heure": "2021-05-25T14:33:42.000Z",
 		"Nom du joueur": "CoubyStark",
 		"Avion": "M-2000C",
-		"Temps": "24 min 50.780",
-		"Temps intermédiaire": "15 min 13.540",
-		"Temps (s)": "1490.78",
-		"Temps intermédiaire (s)": "913.54",
+		"Temps": "26 min 53.610",
+		"Temps intermédiaire": "16 min 04.790",
+		"Temps (s)": "1613.61",
+		"Temps intermédiaire (s)": "964.79",
 		"Ravitaillement": "Non"
 	}
 ]
