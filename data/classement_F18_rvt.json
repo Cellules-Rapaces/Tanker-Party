@@ -40,6 +40,16 @@
 		"Ravitaillement": "Oui"
 	},
 	{
+		"Date et heure": "2021-05-28T15:46:23.000Z",
+		"Nom du joueur": "R2D2",
+		"Avion": "FA-18C_hornet",
+		"Temps": "28 min 43.600",
+		"Temps intermédiaire": "17 min 34.640",
+		"Temps (s)": "1723.6",
+		"Temps intermédiaire (s)": "1054.64",
+		"Ravitaillement": "Oui"
+	},
+	{
 		"Date et heure": "2021-05-25T20:12:49.000Z",
 		"Nom du joueur": "64vFAS | Scalou",
 		"Avion": "FA-18C_hornet",
@@ -47,16 +57,6 @@
 		"Temps intermédiaire": "17 min 47.510",
 		"Temps (s)": "1724.09",
 		"Temps intermédiaire (s)": "1067.51",
-		"Ravitaillement": "Oui"
-	},
-	{
-		"Date et heure": "2021-05-24T19:59:37.000Z",
-		"Nom du joueur": "R2D2",
-		"Avion": "FA-18C_hornet",
-		"Temps": "29 min 09.220",
-		"Temps intermédiaire": "18 min 18.540",
-		"Temps (s)": "1749.22",
-		"Temps intermédiaire (s)": "1098.54",
 		"Ravitaillement": "Oui"
 	},
 	{
