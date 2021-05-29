@@ -1,5 +1,6 @@
 [
 	{
+		"Rang": 1,
 		"Date et heure": "2021-05-09T23:54:12.000Z",
 		"Nom du joueur": "Dee-Jay from BMS",
 		"Avion": "F-16C_50",
@@ -10,6 +11,7 @@
 		"Ravitaillement": "Non"
 	},
 	{
+		"Rang": 2,
 		"Date et heure": "2021-05-08T21:57:25.000Z",
 		"Nom du joueur": "31st - MrGl0ck",
 		"Avion": "F-16C_50",

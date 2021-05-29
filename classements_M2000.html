@@ -146,7 +146,6 @@
 
         var sortAscending = true;
         var table = d3.select('#M2000_norvt').append('table').attr('class', 'display').attr('id', 'tM2000_norvt');
-        // var titles = d3.keys(data[0]).filter(word => word != "TotalTime");
         var titles = d3.keys(data[0]).slice(1, 5);
         var headers = table.append('thead').append('tr')
                          .selectAll('th')
@@ -223,12 +222,28 @@
 <!-- init jQuery dataTable -->
 <script>
   $(window).on( "load", function () {
-    $('#tM2000_rvt').DataTable( {
+    var t2000_rvt = $('#tM2000_rvt').DataTable( {
+      "columnDefs": [ {
+          "searchable": false,
+          "orderable": false,
+          "targets": 0
+      } ],
       "pageLength": 25,
       "order": [[ 2, "asc" ]]
     } );
+
+    t2000_rvt.on( 'order.dt search.dt', function () {
+        t2000_rvt.column(0, {search:'applied', order:'applied'}).nodes().each( function (cell, i) {
+            cell.innerHTML = i+1;
+        } );
+    } ).draw();
+
     $('#tM2000_norvt').DataTable( {
-      "pageLength": 25,
+      "columnDefs": [ {
+          "searchable": false,
+          "orderable": false,
+          "targets": 0
+      } ],      "pageLength": 25,
       "order": [[ 2, "asc" ]]
     } );
   } );
