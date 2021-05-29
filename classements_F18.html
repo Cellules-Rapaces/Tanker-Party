@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="">
   <meta name="author" content="CoubyStark">
-  <title>Tanker Party Challenge - Training</title>
+  <title>Tanker Party Challenge - Classements M-2000C</title>
 
   <!-- Bootstrap core CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
@@ -18,6 +18,15 @@
 
   <!-- Custom styles for this template -->
   <link href="/assets/css/main.css" rel="stylesheet">
+
+  <!-- jQuery 3.5.1 -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+  <!-- Styles jQuery DataTables -->
+  <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.24/css/jquery.dataTables.css">
+  <!-- jQuery dataTables 1.10.24 -->
+  <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.24/js/jquery.dataTables.js"></script>
+  <!-- Bootstrap 5.0.0-beta2 -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
 
 </head>
 
@@ -38,12 +47,12 @@
             <a class="nav-link" href="/"><i class="fas fa-trophy"></i> Podium</a>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <a class="nav-link active dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               <i class="fas fa-flag-checkered"></i> Classements
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
               <li><a class="dropdown-item" href="/classements_M2000"><span class="icon-M2000-h"></span> Classements M-2000C</a></li>
-              <li><a class="dropdown-item" href="/classements_F18"><span class="icon-f-18-h"></span> Classements F/A-18C</a></li>
+              <li><a class="dropdown-item active" aria-current="page" href="/classements_F18"><span class="icon-f-18-h"></span> Classements F/A-18C</a></li>
               <li><a class="dropdown-item" href="/chronos"><i class="fas fa-stopwatch"></i> Tous les chronos</a></li>
             </ul>
           </li>
@@ -54,7 +63,7 @@
             <a class="nav-link" href="/regles"><i class="fas fa-scroll"></i> Règles</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="/training"><i class="fas fa-running"></i> Training</a>
+            <a class="nav-link" href="/training"><i class="fas fa-running"></i> Training</a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -88,26 +97,84 @@
   </div>
   -->
 
-  <div class="pb-4">
-    <h2 class="py-2">Training</h2>
-    <h3 class="py-2"><i class="fas fa-crosshairs"></i> Objectif</h3>
-      <p>Au niveau de cette page, l'objectif est de partager des ressources pour aider à progresser !</p>
-      <p>Celle-ci évoluera petit à petit pour proposer un fichier miz ainsi que des vidéos.</p>
-    <h3 class="py-2"><i class="far fa-file-archive"></i> Fichiers miz de training</h3>
-      <p>Le premier fichier proposé est destiné à te permettre de travailler de manière immédiate et répétée les diverses séquences clées du défi.</p>
-      <p><a class="btn btn-primary" href="/miz/Training_Tanker_Party_v2.4_sequences-clees.miz"><i class="fas fa-file-download"></i> Télécharger la mission d'entraînement aux séquences clées</a></p>
-      <p>Les trois séquences de training proposées :</p>
-      <ul class="text-small">
-        <li>Phase d'interception du raviatilleur + ravitaillement en vol</li>
-        <li>Ravitaillement en vol</li>
-        <li>Arrivée rapide sur le terrain de destination</li>
-      </ul>
-      <p>Les paramètres initiaux de la séquence interception + ravitaillement sont repris pour le <span class="icon-M2000-h"></span>M-2000C à partir des meilleurs temps de la saison 2020.</p>
-      <p>Ces paramètres initiaux pour cette même séquence, pour les avions autres que le <span class="icon-M2000-h"></span>M-2000C, seront mis à jour pour reprendre de la même manière ceux des meilleurs temps encore à réaliser.</p>
-      <p>Un deuxième fichier miz de training est proposé, pour permettre un entrainement en local au parcours complet, en bénéficiant ainsi de la possibilité d'accélération du temps.</p>
-      <p><a class="btn btn-primary" href="/miz/Training_Tanker_Party_v2.4_parcours-complet.miz"><i class="fas fa-file-download"></i> Télécharger la mission d'entraînement au parcours complet</a></p>
-    <h3 class="py-2"><i class="fas fa-film"></i> Vidéos</h3>
-      <p>Dans les vidéos à venir, l'objectif est de commenter les points clés permettant de réaliser un bon temps, en fonction de l'avion utilisé !</p>
+  <div id="F18_rvt" class="pb-4">
+    <h2 class="py-2">Classement M-2000C avec ravitaillement en vol</h2>
+    <script type="text/javascript" src="https://d3js.org/d3.v3.min.js"></script>
+    <script type="text/javascript">
+  	  d3.json("data/classement_F18_rvt.json", function(error, data) {
+  		  if (error) throw error;
+
+  		  var sortAscending = true;
+  		  var table = d3.select('#F18_rvt').append('table').attr('class', 'display').attr('id', 'tF18_rvt');
+  		  // var titles = d3.keys(data[0]).filter(word => word != "TotalTime");
+        var titles = d3.keys(data[0]).slice(1, 5);
+  		  var headers = table.append('thead').append('tr')
+  		                   .selectAll('th')
+  		                   .data(titles).enter()
+  		                   .append('th')
+  		                   .text(function (d) {
+  			                    return d;
+  		                    })
+                         .attr('scope', 'col')
+
+  		  var rows = table.append('tbody').selectAll('tr')
+  		               .data(data).enter()
+  		               .append('tr');
+  		  rows.selectAll('td')
+  		    .data(function (d) {
+  		    	   return titles.map(function (k) {
+  		    		 return { 'value': d[k], 'name': k};
+  		    	});
+  		    }).enter()
+  		    .append('td')
+  		    .attr('data-th', function (d) {
+  		    	return d.name;
+  		    })
+  		    .text(function (d) {
+  		    	return d.value;
+  		    });
+  	  });
+  	</script>
+  </div>
+
+  <div id="F18_norvt" class="pb-4">
+    <h2 class="py-2">Classement M-2000C sans ravitaillement en vol</h2>
+    <script type="text/javascript" src="https://d3js.org/d3.v3.min.js"></script>
+    <script type="text/javascript">
+      d3.json("data/classement_F18_norvt.json", function(error, data) {
+        if (error) throw error;
+
+        var sortAscending = true;
+        var table = d3.select('#F18_norvt').append('table').attr('class', 'display').attr('id', 'tF18_norvt');
+        // var titles = d3.keys(data[0]).filter(word => word != "TotalTime");
+        var titles = d3.keys(data[0]).slice(1, 5);
+        var headers = table.append('thead').append('tr')
+                         .selectAll('th')
+                         .data(titles).enter()
+                         .append('th')
+                         .text(function (d) {
+                            return d;
+                          })
+                         .attr('scope', 'col')
+
+        var rows = table.append('tbody').selectAll('tr')
+                     .data(data).enter()
+                     .append('tr');
+        rows.selectAll('td')
+          .data(function (d) {
+               return titles.map(function (k) {
+               return { 'value': d[k], 'name': k};
+            });
+          }).enter()
+          .append('td')
+          .attr('data-th', function (d) {
+            return d.name;
+          })
+          .text(function (d) {
+            return d.value;
+          });
+      });
+    </script>
   </div>
 
   </div>
@@ -153,8 +220,19 @@
 </footer>
 
 
-<!-- Bootstrap 5.0.0-beta2 -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+<!-- init jQuery dataTable -->
+<script>
+  $(window).on( "load", function () {
+    $('#tF18_rvt').DataTable( {
+      "pageLength": 25,
+      "order": [[ 2, "asc" ]]
+    } );
+    $('#tF18_norvt').DataTable( {
+      "pageLength": 25,
+      "order": [[ 2, "asc" ]]
+    } );
+  } );
+</script>
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-8BT891MH1M"></script>
 <script>

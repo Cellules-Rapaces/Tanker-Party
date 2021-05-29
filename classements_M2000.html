@@ -46,20 +46,24 @@
           <li class="nav-item">
             <a class="nav-link" href="/"><i class="fas fa-trophy"></i> Podium</a>
           </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link active dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <i class="fas fa-flag-checkered"></i> Classements
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+              <li><a class="dropdown-item active" aria-current="page" href="/classements_M2000"><span class="icon-M2000-h"></span> Classements M-2000C</a></li>
+              <li><a class="dropdown-item" href="/classements_F18"><span class="icon-f-18-h"></span> Classements F/A-18C</a></li>
+              <li><a class="dropdown-item" href="/chronos"><i class="fas fa-stopwatch"></i> Tous les chronos</a></li>
+            </ul>
+          </li>
           <li class="nav-item">
-            <a class="btn btn-primary" href="/rejoindrelacourse"><i class="fas fa-flag-checkered"></i> Rejoindre la course &raquo;</a>
+            <a class="btn btn-primary" href="/rejoindrelacourse">Rejoindre la course &raquo;</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="/regles"><i class="fas fa-scroll"></i> Règles</a>
           </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link" href="/chronos"><i class="fas fa-stopwatch"></i> Chronos</a>
-          </li>
           <li class="nav-item">
-            <a class="nav-link active" href="/training"><i class="fas fa-running"></i> Training</a>
-            <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
-              <li><a class="dropdown-item active" aria-current="page" href="/classements_M2000"><span class="icon-M2000-h"></span> Classements M-2000C</a></li>
-            </ul>
+            <a class="nav-link" href="/training"><i class="fas fa-running"></i> Training</a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -93,7 +97,7 @@
   </div>
   -->
 
-  <div id="chronos" class="pb-4">
+  <div id="M2000_rvt" class="pb-4">
     <h2 class="py-2">Classement M-2000C avec ravitaillement en vol</h2>
     <script type="text/javascript" src="https://d3js.org/d3.v3.min.js"></script>
     <script type="text/javascript">
@@ -101,9 +105,9 @@
   		  if (error) throw error;
 
   		  var sortAscending = true;
-  		  var table = d3.select('#chronos').append('table').attr('class', 'display').attr('id', 'tchronos');
+  		  var table = d3.select('#M2000_rvt').append('table').attr('class', 'display').attr('id', 'tM2000_rvt');
   		  // var titles = d3.keys(data[0]).filter(word => word != "TotalTime");
-        var titles = d3.keys(data[0]).slice(0, 5).concat(d3.keys(data[0]).slice(7, 8));
+        var titles = d3.keys(data[0]).slice(1, 5);
   		  var headers = table.append('thead').append('tr')
   		                   .selectAll('th')
   		                   .data(titles).enter()
@@ -131,6 +135,46 @@
   		    });
   	  });
   	</script>
+  </div>
+
+  <div id="M2000_norvt" class="pb-4">
+    <h2 class="py-2">Classement M-2000C sans ravitaillement en vol</h2>
+    <script type="text/javascript" src="https://d3js.org/d3.v3.min.js"></script>
+    <script type="text/javascript">
+      d3.json("data/classement_M2000_norvt.json", function(error, data) {
+        if (error) throw error;
+
+        var sortAscending = true;
+        var table = d3.select('#M2000_norvt').append('table').attr('class', 'display').attr('id', 'tM2000_norvt');
+        // var titles = d3.keys(data[0]).filter(word => word != "TotalTime");
+        var titles = d3.keys(data[0]).slice(1, 5);
+        var headers = table.append('thead').append('tr')
+                         .selectAll('th')
+                         .data(titles).enter()
+                         .append('th')
+                         .text(function (d) {
+                            return d;
+                          })
+                         .attr('scope', 'col')
+
+        var rows = table.append('tbody').selectAll('tr')
+                     .data(data).enter()
+                     .append('tr');
+        rows.selectAll('td')
+          .data(function (d) {
+               return titles.map(function (k) {
+               return { 'value': d[k], 'name': k};
+            });
+          }).enter()
+          .append('td')
+          .attr('data-th', function (d) {
+            return d.name;
+          })
+          .text(function (d) {
+            return d.value;
+          });
+      });
+    </script>
   </div>
 
   </div>
@@ -179,8 +223,13 @@
 <!-- init jQuery dataTable -->
 <script>
   $(window).on( "load", function () {
-    $('#tchronos').DataTable( {
-      "pageLength": 30
+    $('#tM2000_rvt').DataTable( {
+      "pageLength": 25,
+      "order": [[ 2, "asc" ]]
+    } );
+    $('#tM2000_norvt').DataTable( {
+      "pageLength": 25,
+      "order": [[ 2, "asc" ]]
     } );
   } );
 </script>
