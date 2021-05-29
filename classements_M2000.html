@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="CoubyStark">
+  <title>Tanker Party Challenge - Classements M-2000C</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+
+  <!-- Flag icons -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.1.0/css/flag-icon.min.css" rel="stylesheet">
+
+  <!--load all styles pour FontAwesome -->
+  <link href="/assets/css/all.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="/assets/css/main.css" rel="stylesheet">
+
+  <!-- jQuery 3.5.1 -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+  <!-- Styles jQuery DataTables -->
+  <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.24/css/jquery.dataTables.css">
+  <!-- jQuery dataTables 1.10.24 -->
+  <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.24/js/jquery.dataTables.js"></script>
+  <!-- Bootstrap 5.0.0-beta2 -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+<header>
+  <div class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="/">
+        <img src="/images/brand-tanker-party.svg" alt="" height="40">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarDropdown" aria-controls="navbarDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="/"><i class="fas fa-trophy"></i> Podium</a>
+          </li>
+          <li class="nav-item">
+            <a class="btn btn-primary" href="/rejoindrelacourse"><i class="fas fa-flag-checkered"></i> Rejoindre la course &raquo;</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/regles"><i class="fas fa-scroll"></i> Règles</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link" href="/chronos"><i class="fas fa-stopwatch"></i> Chronos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="/training"><i class="fas fa-running"></i> Training</a>
+            <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+              <li><a class="dropdown-item active" aria-current="page" href="/classements_M2000"><span class="icon-M2000-h"></span> Classements M-2000C</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <i class="fas fa-history"></i> Historique
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+              <li><a class="dropdown-item" href="/2020">2020</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main class="bg-light">
+  <div class="container pt-4">
+  <!-- Choix de langue en breadcrumb
+  <div>
+  <nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+      <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" id="dropdown09" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="flag-icon flag-icon-fr"> </span> Français</a>
+          <div class="dropdown-menu" aria-labelledby="dropdown09">
+              <a class="dropdown-item" href="#"><span class="flag-icon flag-icon-us"> </span>  English</a>
+              <a class="dropdown-item" href="#"><span class="flag-icon flag-icon-gb"> </span>  English</a>
+          </div>
+      </li>
+    </ol>
+  </nav>
+  </div>
+  -->
+
+  <div id="chronos" class="pb-4">
+    <h2 class="py-2">Classement M-2000C avec ravitaillement en vol</h2>
+    <script type="text/javascript" src="https://d3js.org/d3.v3.min.js"></script>
+    <script type="text/javascript">
+  	  d3.json("data/classement_M2000_rvt.json", function(error, data) {
+  		  if (error) throw error;
+
+  		  var sortAscending = true;
+  		  var table = d3.select('#chronos').append('table').attr('class', 'display').attr('id', 'tchronos');
+  		  // var titles = d3.keys(data[0]).filter(word => word != "TotalTime");
+        var titles = d3.keys(data[0]).slice(0, 5).concat(d3.keys(data[0]).slice(7, 8));
+  		  var headers = table.append('thead').append('tr')
+  		                   .selectAll('th')
+  		                   .data(titles).enter()
+  		                   .append('th')
+  		                   .text(function (d) {
+  			                    return d;
+  		                    })
+                         .attr('scope', 'col')
+
+  		  var rows = table.append('tbody').selectAll('tr')
+  		               .data(data).enter()
+  		               .append('tr');
+  		  rows.selectAll('td')
+  		    .data(function (d) {
+  		    	   return titles.map(function (k) {
+  		    		 return { 'value': d[k], 'name': k};
+  		    	});
+  		    }).enter()
+  		    .append('td')
+  		    .attr('data-th', function (d) {
+  		    	return d.name;
+  		    })
+  		    .text(function (d) {
+  		    	return d.value;
+  		    });
+  	  });
+  	</script>
+  </div>
+
+  </div>
+
+</main>
+
+<footer class="py-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-3 col-md">
+        <img class="mb-2 mx-auto d-block" src="/images/patch_tiger.png" alt="" width="100" height="100">
+        <small class="d-block mb-3 text-muted text-center">&copy; 2004–2021 Cellules Rapaces </br>
+        par CoubyStark</small>
+      </div>
+      <div class="col-3 col-md">
+        <h5>Les défis solos Rapaces</h5>
+        <ul class="list-unstyled text-small">
+          <li><a class="link-secondary" href="https://tankerparty.cellules-rapaces.fr">Tanker Party</a></li>
+        </ul>
+      </div>
+      <div class="col-3 col-md">
+        <h5>A propos</h5>
+        <ul class="list-unstyled text-small">
+          <li><a class="link-secondary" href="https://www.cellules-rapaces.fr">Cellules Rapaces</a></li>
+          <li><a class="link-secondary" href="#">Questions - réponses</a></li>
+          <li><a class="link-secondary" href="/contact">Contact</a></li>
+          <li><a class="link-secondary" href="/mentionslegales">Mentions légales</a></li>
+        </ul>
+      </div>
+      <div class="col-3 col-md">
+        <h5>Medias</h5>
+        <a href="https://discord.gg/52B4WasJfZ"><img class="rounded text-start" src="/images/Tigre_Discord.svg" alt="" width="60" height="60"></a>
+        <a href="https://www.twitch.tv/coubystark"><img class="rounded text-start" src="/images/Tigre_Twitch.svg" alt="" width="60" height="60"></a>
+        <a href="https://github.com/Cellules-Rapaces"><img class="rounded text-start" src="/images/Tigre_Github.svg" alt="" width="55" height="55"></a>
+        <p class="text-end mb-1">
+          <a href="#">Back to top</a>
+        </p>
+      </div>
+    </div>
+  </div>
+
+  </div>
+</footer>
+
+
+<!-- init jQuery dataTable -->
+<script>
+  $(window).on( "load", function () {
+    $('#tchronos').DataTable( {
+      "pageLength": 30
+    } );
+  } );
+</script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-8BT891MH1M"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-8BT891MH1M');
+</script>
+
+</body>
+</html>
