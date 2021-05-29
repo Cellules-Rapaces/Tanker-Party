@@ -1,167 +1,92 @@
 [
 	{
 		"Rang": 1,
-		"Date et heure": "2021-05-16T21:30:52.000Z",
 		"Nom du joueur": "JTFF | Charly",
-		"Avion": "FA-18C_hornet",
 		"Temps": "26 min 42.930",
-		"Temps intermédiaire": "16 min 55.760",
-		"Temps (s)": "1602.93",
-		"Temps intermédiaire (s)": "1015.76",
-		"Ravitaillement": "Oui"
+		"Temps intermédiaire": "16 min 55.760"
 	},
 	{
 		"Rang": 2,
-		"Date et heure": "2021-05-24T09:14:20.000Z",
 		"Nom du joueur": "JR-34 Detox",
-		"Avion": "FA-18C_hornet",
 		"Temps": "27 min 01.180",
-		"Temps intermédiaire": "17 min 19.280",
-		"Temps (s)": "1621.18",
-		"Temps intermédiaire (s)": "1039.28",
-		"Ravitaillement": "Oui"
+		"Temps intermédiaire": "17 min 19.280"
 	},
 	{
 		"Rang": 3,
-		"Date et heure": "2021-05-26T08:11:28.000Z",
 		"Nom du joueur": "64vFAS | Mitchos",
-		"Avion": "FA-18C_hornet",
 		"Temps": "28 min 05.680",
-		"Temps intermédiaire": "17 min 50.770",
-		"Temps (s)": "1685.68",
-		"Temps intermédiaire (s)": "1070.77",
-		"Ravitaillement": "Oui"
+		"Temps intermédiaire": "17 min 50.770"
 	},
 	{
 		"Rang": 4,
-		"Date et heure": "2021-05-29T17:18:42.000Z",
 		"Nom du joueur": "R2D2",
-		"Avion": "FA-18C_hornet",
 		"Temps": "28 min 26.130",
-		"Temps intermédiaire": "17 min 58.100",
-		"Temps (s)": "1706.13",
-		"Temps intermédiaire (s)": "1078.1",
-		"Ravitaillement": "Oui"
+		"Temps intermédiaire": "17 min 58.100"
 	},
 	{
 		"Rang": 5,
-		"Date et heure": "2021-05-27T08:35:45.000Z",
 		"Nom du joueur": "DidiTopGun",
-		"Avion": "FA-18C_hornet",
 		"Temps": "28 min 27.330",
-		"Temps intermédiaire": "17 min 27.300",
-		"Temps (s)": "1707.33",
-		"Temps intermédiaire (s)": "1047.3",
-		"Ravitaillement": "Oui"
+		"Temps intermédiaire": "17 min 27.300"
 	},
 	{
 		"Rang": 6,
-		"Date et heure": "2021-05-25T20:12:49.000Z",
 		"Nom du joueur": "64vFAS | Scalou",
-		"Avion": "FA-18C_hornet",
 		"Temps": "28 min 44.090",
-		"Temps intermédiaire": "17 min 47.510",
-		"Temps (s)": "1724.09",
-		"Temps intermédiaire (s)": "1067.51",
-		"Ravitaillement": "Oui"
+		"Temps intermédiaire": "17 min 47.510"
 	},
 	{
 		"Rang": 7,
-		"Date et heure": "2021-05-16T19:26:03.000Z",
 		"Nom du joueur": "yanou",
-		"Avion": "FA-18C_hornet",
 		"Temps": "29 min 40.200",
-		"Temps intermédiaire": "18 min 53.980",
-		"Temps (s)": "1780.2",
-		"Temps intermédiaire (s)": "1133.98",
-		"Ravitaillement": "Oui"
+		"Temps intermédiaire": "18 min 53.980"
 	},
 	{
 		"Rang": 8,
-		"Date et heure": "2021-05-22T15:03:50.000Z",
 		"Nom du joueur": "Iceman",
-		"Avion": "FA-18C_hornet",
 		"Temps": "29 min 56.800",
-		"Temps intermédiaire": "18 min 59.340",
-		"Temps (s)": "1796.8",
-		"Temps intermédiaire (s)": "1139.34",
-		"Ravitaillement": "Oui"
+		"Temps intermédiaire": "18 min 59.340"
 	},
 	{
 		"Rang": 9,
-		"Date et heure": "2021-05-23T14:35:06.000Z",
 		"Nom du joueur": "JR-33 Shkval",
-		"Avion": "FA-18C_hornet",
 		"Temps": "30 min 12.370",
-		"Temps intermédiaire": "18 min 41.910",
-		"Temps (s)": "1812.37",
-		"Temps intermédiaire (s)": "1121.91",
-		"Ravitaillement": "Oui"
+		"Temps intermédiaire": "18 min 41.910"
 	},
 	{
 		"Rang": 10,
-		"Date et heure": "2021-05-15T23:56:13.000Z",
 		"Nom du joueur": "Choumac",
-		"Avion": "FA-18C_hornet",
 		"Temps": "30 min 41.420",
-		"Temps intermédiaire": "19 min 06.590",
-		"Temps (s)": "1841.42",
-		"Temps intermédiaire (s)": "1146.59",
-		"Ravitaillement": "Oui"
+		"Temps intermédiaire": "19 min 06.590"
 	},
 	{
 		"Rang": 11,
-		"Date et heure": "2021-05-10T14:57:29.000Z",
 		"Nom du joueur": "carvex25",
-		"Avion": "FA-18C_hornet",
 		"Temps": "31 min 08.900",
-		"Temps intermédiaire": "20 min 17.850",
-		"Temps (s)": "1868.9",
-		"Temps intermédiaire (s)": "1217.85",
-		"Ravitaillement": "Oui"
+		"Temps intermédiaire": "20 min 17.850"
 	},
 	{
 		"Rang": 12,
-		"Date et heure": "2021-05-24T17:25:40.000Z",
 		"Nom du joueur": "JTFF | Waramer",
-		"Avion": "FA-18C_hornet",
 		"Temps": "31 min 55.080",
-		"Temps intermédiaire": "13 min 43.980",
-		"Temps (s)": "1915.08",
-		"Temps intermédiaire (s)": "823.98",
-		"Ravitaillement": "Oui"
+		"Temps intermédiaire": "13 min 43.980"
 	},
 	{
 		"Rang": 13,
-		"Date et heure": "2021-05-12T10:48:57.000Z",
 		"Nom du joueur": "VFA-131 |409 | DENVER",
-		"Avion": "FA-18C_hornet",
 		"Temps": "32 min 24.820",
-		"Temps intermédiaire": "22 min 04.550",
-		"Temps (s)": "1944.82",
-		"Temps intermédiaire (s)": "1324.55",
-		"Ravitaillement": "Oui"
+		"Temps intermédiaire": "22 min 04.550"
 	},
 	{
 		"Rang": 14,
-		"Date et heure": "2021-05-13T11:38:55.000Z",
 		"Nom du joueur": "poupoune70",
-		"Avion": "FA-18C_hornet",
 		"Temps": "32 min 38.090",
-		"Temps intermédiaire": "21 min 31.560",
-		"Temps (s)": "1958.09",
-		"Temps intermédiaire (s)": "1291.56",
-		"Ravitaillement": "Oui"
+		"Temps intermédiaire": "21 min 31.560"
 	},
 	{
 		"Rang": 15,
-		"Date et heure": "2021-05-04T21:48:32.000Z",
 		"Nom du joueur": "Psycho",
-		"Avion": "FA-18C_hornet",
 		"Temps": "40 min 21.610",
-		"Temps intermédiaire": "27 min 26.830",
-		"Temps (s)": "2421.61",
-		"Temps intermédiaire (s)": "1646.83",
-		"Ravitaillement": "Oui"
+		"Temps intermédiaire": "27 min 26.830"
 	}
 ]

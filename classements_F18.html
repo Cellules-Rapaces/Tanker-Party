@@ -107,7 +107,7 @@
   		  var sortAscending = true;
   		  var table = d3.select('#F18_rvt').append('table').attr('class', 'display').attr('id', 'tF18_rvt');
   		  // var titles = d3.keys(data[0]).filter(word => word != "TotalTime");
-        var titles = d3.keys(data[0]).slice(1, 5);
+        var titles = d3.keys(data[0]).slice(0, 4);
   		  var headers = table.append('thead').append('tr')
   		                   .selectAll('th')
   		                   .data(titles).enter()
@@ -147,7 +147,7 @@
         var sortAscending = true;
         var table = d3.select('#F18_norvt').append('table').attr('class', 'display').attr('id', 'tF18_norvt');
         // var titles = d3.keys(data[0]).filter(word => word != "TotalTime");
-        var titles = d3.keys(data[0]).slice(1, 5);
+        var titles = d3.keys(data[0]).slice(0, 4);
         var headers = table.append('thead').append('tr')
                          .selectAll('th')
                          .data(titles).enter()
