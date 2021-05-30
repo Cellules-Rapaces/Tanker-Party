@@ -7,8 +7,8 @@ $(document).ready(function () {
       player_M2000_rvt += '<tbody>';
 
       if (data[1]) {
-        player_M2000_rvt += '<tr class="text-center">';
-        player_M2000_rvt += '<td>#2</td>';
+        player_M2000_rvt += '<tr class="text-center align-middle">';
+        player_M2000_rvt += '<td><img src="/images/medal_silver.png" alt=""></td>';
 
         player_M2000_rvt += '<td>' +
             data[1]["Nom du joueur"] + '</td>';
@@ -19,8 +19,8 @@ $(document).ready(function () {
       }
 
       if (data[2]) {
-        player_M2000_rvt += '<tr class="text-center">';
-        player_M2000_rvt += '<td>#3</td>';
+        player_M2000_rvt += '<tr class="text-center align-middle">';
+        player_M2000_rvt += '<td><img src="/images/medal_bronz.png" alt=""></td>';
 
         player_M2000_rvt += '<td>' +
             data[2]["Nom du joueur"] + '</td>';
@@ -44,8 +44,8 @@ $(document).ready(function () {
       player_F18_rvt += '<tbody>';
 
       if (data[1]) {
-        player_F18_rvt += '<tr class="text-center">';
-        player_F18_rvt += '<td>#2</td>';
+        player_F18_rvt += '<tr class="text-center align-middle">';
+        player_F18_rvt += '<td><img src="/images/medal_silver.png" alt=""></td>';
 
         player_F18_rvt += '<td>' +
             data[1]["Nom du joueur"] + '</td>';
@@ -56,8 +56,8 @@ $(document).ready(function () {
       }
 
       if (data[2]) {
-        player_F18_rvt += '<tr class="text-center">';
-        player_F18_rvt += '<td>#3</td>';
+        player_F18_rvt += '<tr class="text-center align-middle">';
+        player_F18_rvt += '<td><img src="/images/medal_bronz.png" alt=""></td>';
 
         player_F18_rvt += '<td>' +
             data[2]["Nom du joueur"] + '</td>';
@@ -81,8 +81,8 @@ $(document).ready(function () {
       player_F14_rvt += '<tbody>';
 
       if (data[1]) {
-        player_F14_rvt += '<tr class="text-center">';
-        player_F14_rvt += '<td>#2</td>';
+        player_F14_rvt += '<tr class="text-center align-middle">';
+        player_F14_rvt += '<td><img src="/images/medal_silver.png" alt=""></td>';
 
         player_F14_rvt += '<td>' +
             data[1]["Nom du joueur"] + '</td>';
@@ -93,8 +93,8 @@ $(document).ready(function () {
       }
 
       if (data[2]) {
-        player_F14_rvt += '<tr class="text-center">';
-        player_F14_rvt += '<td>#3</td>';
+        player_F14_rvt += '<tr class="text-center align-middle">';
+        player_F14_rvt += '<td><img src="/images/medal_bronz.png" alt=""></td>';
 
         player_F14_rvt += '<td>' +
             data[2]["Nom du joueur"] + '</td>';
@@ -118,8 +118,8 @@ $(document).ready(function () {
       player_F16_rvt += '<tbody>';
 
       if (data[1]) {
-        player_F16_rvt += '<tr class="text-center">';
-        player_F16_rvt += '<td>#2</td>';
+        player_F16_rvt += '<tr class="text-center align-middle">';
+        player_F16_rvt += '<td><img src="/images/medal_silver.png" alt=""></td>';
 
         player_F16_rvt += '<td>' +
             data[1]["Nom du joueur"] + '</td>';
@@ -130,8 +130,8 @@ $(document).ready(function () {
       }
 
       if (data[2]) {
-        player_F16_rvt += '<tr class="text-center">';
-        player_F16_rvt += '<td>#3</td>';
+        player_F16_rvt += '<tr class="text-center align-middle">';
+        player_F16_rvt += '<td><img src="/images/medal_bronz.png" alt=""></td>';
 
         player_F16_rvt += '<td>' +
             data[2]["Nom du joueur"] + '</td>';
@@ -155,8 +155,8 @@ $(document).ready(function () {
       player_JF17_rvt += '<tbody>';
 
       if (data[1]) {
-        player_JF17_rvt += '<tr class="text-center">';
-        player_JF17_rvt += '<td>#2</td>';
+        player_JF17_rvt += '<tr class="text-center align-middle">';
+        player_JF17_rvt += '<td><img src="/images/medal_silver.png" alt=""></td>';
 
         player_JF17_rvt += '<td>' +
             data[1]["Nom du joueur"] + '</td>';
@@ -167,8 +167,8 @@ $(document).ready(function () {
       }
 
       if (data[2]) {
-        player_JF17_rvt += '<tr class="text-center">';
-        player_JF17_rvt += '<td>#3</td>';
+        player_JF17_rvt += '<tr class="text-center align-middle">';
+        player_JF17_rvt += '<td><img src="/images/medal_bronz.png" alt=""></td>';
 
         player_JF17_rvt += '<td>' +
             data[2]["Nom du joueur"] + '</td>';
@@ -206,8 +206,8 @@ $(document).ready(function () {
       }
 
       if (data[1]) {
-        player_M2000_norvt += '<tr class="text-center">';
-        player_M2000_norvt += '<td>#2</td>';
+        player_M2000_norvt += '<tr class="text-center align-middle">';
+        player_M2000_norvt += '<td><img src="/images/medal_silver.png" alt=""></td>';
 
         player_M2000_norvt += '<td>' +
             data[1]["Nom du joueur"] + '</td>';
@@ -218,8 +218,8 @@ $(document).ready(function () {
       }
 
       if (data[2]) {
-        player_M2000_norvt += '<tr class="text-center">';
-        player_M2000_norvt += '<td>#3</td>';
+        player_M2000_norvt += '<tr class="text-center align-middle">';
+        player_M2000_norvt += '<td><img src="/images/medal_bronz.png" alt=""></td>';
 
         player_M2000_norvt += '<td>' +
             data[2]["Nom du joueur"] + '</td>';
@@ -255,8 +255,8 @@ $(document).ready(function () {
       }
 
       if (data[1]) {
-        player_F18_norvt += '<tr class="text-center">';
-        player_F18_norvt += '<td>#2</td>';
+        player_F18_norvt += '<tr class="text-center align-middle">';
+        player_F18_norvt += '<td><img src="/images/medal_silver.png" alt=""></td>';
 
         player_F18_norvt += '<td>' +
             data[1]["Nom du joueur"] + '</td>';
@@ -267,8 +267,8 @@ $(document).ready(function () {
       }
 
       if (data[2]) {
-        player_F18_norvt += '<tr class="text-center">';
-        player_F18_norvt += '<td>#3</td>';
+        player_F18_norvt += '<tr class="text-center align-middle">';
+        player_F18_norvt += '<td><img src="/images/medal_bronz.png" alt=""></td>';
 
         player_F18_norvt += '<td>' +
             data[2]["Nom du joueur"] + '</td>';
@@ -304,8 +304,8 @@ $(document).ready(function () {
       }
 
       if (data[1]) {
-        player_F14_norvt += '<tr class="text-center">';
-        player_F14_norvt += '<td>#2</td>';
+        player_F14_norvt += '<tr class="text-center align-middle">';
+        player_F14_norvt += '<td><img src="/images/medal_silver.png" alt=""></td>';
 
         player_F14_norvt += '<td>' +
             data[1]["Nom du joueur"] + '</td>';
@@ -316,8 +316,8 @@ $(document).ready(function () {
       }
 
       if (data[2]) {
-        player_F14_norvt += '<tr class="text-center">';
-        player_F14_norvt += '<td>#3</td>';
+        player_F14_norvt += '<tr class="text-center align-middle">';
+        player_F14_norvt += '<td><img src="/images/medal_bronz.png" alt=""></td>';
 
         player_F14_norvt += '<td>' +
             data[2]["Nom du joueur"] + '</td>';
@@ -353,8 +353,8 @@ $(document).ready(function () {
       }
 
       if (data[1]) {
-        player_F16_norvt += '<tr class="text-center">';
-        player_F16_norvt += '<td>#2</td>';
+        player_F16_norvt += '<tr class="text-center align-middle">';
+        player_F16_norvt += '<td><img src="/images/medal_silver.png" alt=""></td>';
 
         player_F16_norvt += '<td>' +
             data[1]["Nom du joueur"] + '</td>';
@@ -365,8 +365,8 @@ $(document).ready(function () {
       }
 
       if (data[2]) {
-        player_F16_norvt += '<tr class="text-center">';
-        player_F16_norvt += '<td>#3</td>';
+        player_F16_norvt += '<tr class="text-center align-middle">';
+        player_F16_norvt += '<td><img src="/images/medal_bronz.png" alt=""></td>';
 
         player_F16_norvt += '<td>' +
             data[2]["Nom du joueur"] + '</td>';
@@ -402,8 +402,8 @@ $(document).ready(function () {
       }
 
       if (data[1]) {
-        player_JF17_norvt += '<tr class="text-center">';
-        player_JF17_norvt += '<td>#2</td>';
+        player_JF17_norvt += '<tr class="text-center align-middle">';
+        player_JF17_norvt += '<td><img src="/images/medal_silver.png" alt=""></td>';
 
         player_JF17_norvt += '<td>' +
             data[1]["Nom du joueur"] + '</td>';
@@ -414,8 +414,8 @@ $(document).ready(function () {
       }
 
       if (data[2]) {
-        player_JF17_norvt += '<tr class="text-center">';
-        player_JF17_norvt += '<td>#3</td>';
+        player_JF17_norvt += '<tr class="text-center align-middle">';
+        player_JF17_norvt += '<td><img src="/images/medal_bronz.png" alt=""></td>';
 
         player_JF17_norvt += '<td>' +
             data[2]["Nom du joueur"] + '</td>';
