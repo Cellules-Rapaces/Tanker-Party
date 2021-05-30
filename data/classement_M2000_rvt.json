@@ -37,18 +37,24 @@
 	},
 	{
 		"Rang": 7,
+		"Nom du joueur": "Tanic",
+		"Temps": "28 min 15.640",
+		"Temps intermédiaire": "18 min 21.540"
+	},
+	{
+		"Rang": 8,
 		"Nom du joueur": "COLMAR 2-1 - Guips",
 		"Temps": "30 min 41.880",
 		"Temps intermédiaire": "15 min 43.900"
 	},
 	{
-		"Rang": 8,
+		"Rang": 9,
 		"Nom du joueur": "Vautour 1-1 | VEAW | PIMS",
 		"Temps": "32 min 45.850",
 		"Temps intermédiaire": "22 min 33.460"
 	},
 	{
-		"Rang": 9,
+		"Rang": 10,
 		"Nom du joueur": "Sushimi",
 		"Temps": "44 min 38.140",
 		"Temps intermédiaire": "23 min 28.970"
