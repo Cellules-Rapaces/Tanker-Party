@@ -195,7 +195,7 @@ $(document).ready(function () {
 
       if (data[0]) {
         player_M2000_norvt += '<tr class="text-center fw-bold">';
-        player_M2000_norvt += '<td>#1</td>';
+        player_M2000_norvt += '<td><img src="/images/medal_gold.png" alt=""></td>';
 
         player_M2000_norvt += '<td>' +
             data[0]["Nom du joueur"] + '</td>';
@@ -244,7 +244,7 @@ $(document).ready(function () {
 
       if (data[0]) {
         player_F18_norvt += '<tr class="text-center fw-bold">';
-        player_F18_norvt += '<td>#1</td>';
+        player_F18_norvt += '<td><img src="/images/medal_gold.png" alt=""></td>';
 
         player_F18_norvt += '<td>' +
             data[0]["Nom du joueur"] + '</td>';
@@ -293,7 +293,7 @@ $(document).ready(function () {
 
       if (data[0]) {
         player_F14_norvt += '<tr class="text-center fw-bold">';
-        player_F14_norvt += '<td>#1</td>';
+        player_F14_norvt += '<td><img src="/images/medal_gold.png" alt=""></td>';
 
         player_F14_norvt += '<td>' +
             data[0]["Nom du joueur"] + '</td>';
@@ -342,7 +342,7 @@ $(document).ready(function () {
 
       if (data[0]) {
         player_F16_norvt += '<tr class="text-center fw-bold">';
-        player_F16_norvt += '<td>#1</td>';
+        player_F16_norvt += '<td><img src="/images/medal_gold.png" alt=""></td>';
 
         player_F16_norvt += '<td>' +
             data[0]["Nom du joueur"] + '</td>';
@@ -391,7 +391,7 @@ $(document).ready(function () {
 
       if (data[0]) {
         player_JF17_norvt += '<tr class="text-center fw-bold">';
-        player_JF17_norvt += '<td>#1</td>';
+        player_JF17_norvt += '<td><img src="/images/medal_gold.png" alt=""></td>';
 
         player_JF17_norvt += '<td>' +
             data[0]["Nom du joueur"] + '</td>';
