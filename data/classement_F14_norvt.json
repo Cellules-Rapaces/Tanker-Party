@@ -1,26 +1,26 @@
 [
 	{
 		"Rang": 1,
+		"Nom du joueur": "CoubyStark",
+		"Temps": "25 min 14.780",
+		"Temps intermédiaire": "14 min 04.670"
+	},
+	{
+		"Rang": 2,
 		"Nom du joueur": "FX-12 Pikos",
 		"Temps": "27 min 40.710",
 		"Temps intermédiaire": "15 min 23.540"
 	},
 	{
-		"Rang": 2,
+		"Rang": 3,
 		"Nom du joueur": "NightWolf [VEAW] Yohann",
 		"Temps": "28 min 06.670",
 		"Temps intermédiaire": "16 min 19.110"
 	},
 	{
-		"Rang": 3,
+		"Rang": 4,
 		"Nom du joueur": "JTFF | Gemini | VF-84",
 		"Temps": "29 min 10.050",
 		"Temps intermédiaire": "15 min 38.990"
-	},
-	{
-		"Rang": 4,
-		"Nom du joueur": "CoubyStark",
-		"Temps": "29 min 27.750",
-		"Temps intermédiaire": "16 min 10.770"
 	}
 ]
